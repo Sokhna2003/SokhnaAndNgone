@@ -1,6 +1,6 @@
 <?php
 include 'calculatrice.php'; 
-// include 'addition.php';// ou require_once
+include 'addition.php';// ou require_once
 
 // Vous pouvez maintenant utiliser addition() ici
 

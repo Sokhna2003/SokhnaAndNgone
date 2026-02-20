@@ -18,7 +18,7 @@ function Menu() : void{
 }
 do{
   Menu();
-  $choix = intval(readline("veuillez saisir votre choix:\n"));
+  $choix = intval(readline("veuillez saisir votre choix:"));
    if ($choix >= 1 && $choix <= 5) {
       $a = intval(readline("Entrez le premier nombre : "));
       $b = intval(readline("Entrez le deuxième nombre : "));

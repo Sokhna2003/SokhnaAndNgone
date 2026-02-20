@@ -1,5 +1,5 @@
 <?php
-include 'addition.php';// ou require_once
+$addition = include 'addition.php'; 
 include 'calculatrice.php'; 
 
 // Vous pouvez maintenant utiliser addition() ici
@@ -23,7 +23,7 @@ do{
   switch ($choix){
     case 1:
     // PHP comprend qu'il doit chercher une fonction nommée "addition"
-    echo "Résultat : " . calculer($a, $b, 'addition'); 
+    echo "Résultat : " . calculer($a, $b, $addition); 
     break;
 
    
